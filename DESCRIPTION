@@ -1,0 +1,14 @@
+Package: compreg
+Title: Tools for Estimating and Evaluating Compositional Regression Models
+Version: 0.0.1
+Authors@R: 
+    c(person("Dave", "Armstrong", , "dave@quantoid.net", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9358-2489")), 
+      person("Jack", "Lucas", , "jack.lucas@ucalgary.ca", role = c("ctb"),
+           comment = c(ORCID = "0000-0002-3498-7267")))     
+Description: Compositional regression models are relatively simple to estimate.  However, they get much more complicated when not all choices are available to all observations (e.g., parties don't run candidates in all districts).  The `compreg` package has tools that help identify these problems, estimate models and summarise their results (both numerically and graphically). 
+Imports: compositions, DAMisc, dplyr, glue, magrittr, stats
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
